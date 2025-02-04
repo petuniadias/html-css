@@ -1,0 +1,111 @@
+.red-square {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.green-circle {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.service-satisfaction {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.433);
+  width: 300px;
+  height: 90px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  border-color: rgba(128, 128, 128, 0.433);
+  border-style: solid;
+}
+
+.ytb-music {
+  background-color: rgb(21, 21, 21);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 360px;
+}
+
+.install-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.add-music {
+  color: grey;
+}
+
+.install-title,
+.add-music {
+  font-family: Arial;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tweet-box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  /**https://getcssscan.com/css-box-shadow-examples**/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.blackcat {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.tweet-content {
+  color: grey;
+  vertical-align: middle;
+  font-family: Arial;
+  margin-right: 65px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.tweet-btn {
+  vertical-align: middle;
+  font-family: Arial;
+  background-color: rgb(63, 159, 255);
+  color: white;
+  border: none;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.15s;
+}
+
+.tweet-btn:hover {
+  background-color: rgb(39, 113, 187);
+}
+
+.tweet-btn:active {
+  background-color: rgb(28, 87, 146);
+}
