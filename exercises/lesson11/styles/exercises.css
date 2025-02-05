@@ -1,0 +1,25 @@
+.first-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.first-content {
+  background-color: lightblue;
+}
+
+.second-content {
+  background-color: lightpink;
+}
+
+.second-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 20px;
+}
+
+.third-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}

@@ -1,0 +1,77 @@
+body {
+  font-family: Arial;
+}
+
+.profile-container {
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  width: 100%;
+}
+
+.user-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.username,
+.friend-statsbox,
+.add-btn {
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.friend-statsbox {
+  display: inline-block;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.friend-stats {
+  color: grey;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.add-btn {
+  background-color: rgb(66, 145, 255);
+  border: none;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  display: block;
+}
+
+.add-btn:hover {
+  background-color: rgb(44, 107, 196);
+}
+
+.add-btn:active {
+  background-color: rgb(31, 80, 147);
+}
+
+.mini-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.grid-profiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 25px;
+  align-items: center;
+}
