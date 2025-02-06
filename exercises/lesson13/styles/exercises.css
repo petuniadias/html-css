@@ -1,0 +1,40 @@
+.flex-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item-one {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.row {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.item-two {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.row-one {
+  margin: 0;
+  display: flex;
+}
+
+.item-three {
+  background-color: lightblue;
+  width: 200px;
+  padding-bottom: 15px;
+}
+
+.row-two {
+  display: flex;
+  justify-content: space-between;
+}

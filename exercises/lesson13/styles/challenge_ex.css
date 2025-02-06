@@ -1,0 +1,138 @@
+body {
+  font-family: Arial;
+}
+
+.all-inboxes {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.inbox-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+
+.profile-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inbox-title {
+  margin-bottom: 15px;
+}
+
+.picture {
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+p {
+  margin: 0;
+  font-family: Arial;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.name,
+.title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.content {
+  color: grey;
+  font-size: 14px;
+}
+
+.time,
+.inbox-title {
+  color: grey;
+  font-size: 13px;
+}
+
+.title {
+  margin-bottom: 3px;
+}
+
+.tweet-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.tweet-box {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.tweet-name {
+  font-size: 14px;
+  color: grey;
+}
+
+span {
+  font-weight: bold;
+  color: black;
+}
+
+.tweet-content,
+.youtube-title,
+.youtube-link {
+  font-size: 15px;
+}
+
+.left-section {
+  margin-right: 5px;
+}
+
+.youtube-link {
+  color: rgb(68, 68, 68);
+}
+
+.youtube-thumbnail {
+  background-color: #dbdbdb;
+  width: 170px;
+}
+
+.youtube-box {
+  display: flex;
+  flex-direction: row;
+  border-color: rgb(211, 211, 211);
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.youtube-info {
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.tweet-content {
+  margin-bottom: 15px;
+}
+
+.tweet-name {
+  margin-bottom: 3px;
+}
