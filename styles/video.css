@@ -49,3 +49,24 @@
   column-gap: 16px;
   row-gap: 40px;
 }
+
+.thumbnail-row {
+  position: relative;
+  
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+}
