@@ -53,6 +53,24 @@
   row-gap: 40px;
 }
 
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .thumbnail-row {
   position: relative;
   
@@ -64,11 +82,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  padding-right: 4px;
-  padding-left: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  font-family: Roboto, Arial;
+  padding: 4px;
   font-size: 12px;
   font-weight: 500;
   border-radius: 2px;
@@ -92,17 +106,12 @@
   background-color: white;
   justify-content: start;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 10px 15px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   opacity: 0;
   white-space: nowrap;
 }
-
-
 
 .profile-picture-tooltip {
   width: 50px;
